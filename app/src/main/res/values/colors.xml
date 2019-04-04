@@ -7,17 +7,9 @@
     <color name="black_owerlay_40">#66000000</color>
 
     <color name="white_overlay_85">#d9ffffff</color>
-    <color name="white_overlay_60">#b4ffffff</color>
-    <color name="light_gray">#a5bdbdbd</color>
+    <color name="light_gray">#bdbdbd</color>
     <color name="selector_frame">#26a69a</color>
     <color name="pressed_light">#14838383</color>
     <color name="dark_disabled">#454545</color>
     <color name="red_overlay">#92ff0000</color>
-    <color name="green_overlay">#9200c853</color>
-    <color name="rating_1">#9E9E9E</color>
-    <color name="rating_2">#B39DDB</color>
-    <color name="rating_3">#64B5F6</color>
-    <color name="rating_4">#00BCD4</color>
-    <color name="rating_5">#009688</color>
-    <color name="notification_chapters">#00bfa5</color>
 </resources>

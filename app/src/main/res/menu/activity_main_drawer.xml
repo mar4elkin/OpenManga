@@ -9,7 +9,7 @@
         <item
             android:id="@+id/nav_action_recommendations"
             android:icon="@drawable/ic_nav_recommend"
-            android:title="@string/recommendations" />
+            android:title="@string/action_recommendations" />
         <item
             android:id="@+id/nav_action_favourites"
             android:icon="@drawable/ic_nav_favourites"
@@ -21,9 +21,7 @@
     </group>
 
 
-    <item
-        android:id="@+id/nav_remote_storage"
-        android:title="@string/storage_remote">
+    <item android:id="@+id/nav_remote_storage"  android:title="@string/storages_remote">
         <menu>
             <group android:id="@+id/groupRemote"  android:checkableBehavior="single" />
         </menu>
@@ -33,6 +31,6 @@
         <item
             android:id="@+id/nav_action_settings"
             android:icon="@drawable/ic_nav_settings"
-            android:title="@string/settings"/>
+            android:title="@string/action_settings"/>
     </group>
 </menu>

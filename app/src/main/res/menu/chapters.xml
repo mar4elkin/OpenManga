@@ -4,6 +4,6 @@
     <item
         android:title="@string/check_all"
         android:id="@+id/action_checkall"
-        android:icon="@drawable/ic_done_all_white"
+        android:icon="@drawable/ic_done_all_light"
         app:showAsAction="always" />
 </menu>

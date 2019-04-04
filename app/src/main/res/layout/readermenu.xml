@@ -39,7 +39,7 @@
             android:scaleType="center"
             android:src="@drawable/ic_view_grid_white" />
 
-        <org.nv95.openmanga.legacy.components.AppCompatProgressBar
+        <org.nv95.openmanga.components.AppCompatProgressBar
             android:id="@+id/progressBar"
             style="?android:progressBarStyleHorizontal"
             android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
             android:background="?selectableItemBackground"
             android:contentDescription="@string/action_save"
             android:scaleType="center"
-            android:src="@drawable/ic_save_white" />
+            android:src="@drawable/ic_save_light" />
 
         <ImageView
             android:id="@+id/menuitem_bookmark"
@@ -135,7 +135,7 @@
             android:background="?selectableItemBackground"
             android:contentDescription="@string/action_bookmark_remove"
             android:scaleType="center"
-            android:src="@drawable/ic_bookmark_white" />
+            android:src="@drawable/ic_bookmark_light" />
 
         <ImageView
             android:id="@+id/menuitem_rotation"
@@ -153,7 +153,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="?selectableItemBackground"
-            android:contentDescription="@string/settings"
+            android:contentDescription="@string/action_settings"
             android:scaleType="center"
             android:src="@drawable/ic_preferences_light" />
 

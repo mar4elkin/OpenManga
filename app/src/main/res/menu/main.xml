@@ -1,10 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".legacy.activities.MainActivity">
+    tools:context=".activities.MainActivity">
     <item
         android:id="@+id/action_search"
-        android:icon="@drawable/ic_search_white"
+        android:icon="@drawable/ic_search_light"
         android:orderInCategory="100"
         android:title="@string/action_search"
         app:showAsAction="ifRoom" />
@@ -67,7 +67,7 @@
         <item
             android:id="@+id/action_histclear"
             android:orderInCategory="100"
-            android:title="@string/clear_history"
+            android:title="@string/action_histclear"
             app:showAsAction="never" />
     </group>
     <group android:id="@+id/group_favourites">
@@ -81,8 +81,12 @@
         android:title="@string/action_sync"
         android:orderInCategory="200"
         app:showAsAction="never" />
-    <item android:id="@+id/action_settings"
-        android:title="@string/settings"
+    <item
+        android:id="@+id/action_settings"
+        android:checkable="true"
+        android:enabled="false"
         android:orderInCategory="200"
+        android:title="@string/action_settings"
+        android:visible="false"
         app:showAsAction="never" />
 </menu>

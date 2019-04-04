@@ -23,11 +23,11 @@
             android:textColorLink="?colorAccent"
             android:visibility="gone" />
 
-        <android.support.v4.widget.ContentLoadingProgressBar
+        <org.nv95.openmanga.components.AppCompatProgressBar
             android:id="@+id/progressBar"
-            style="@style/Widget.AppCompat.ProgressBar"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
             android:indeterminate="true" />

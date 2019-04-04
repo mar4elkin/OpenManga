@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".legacy.activities.settings.SettingsActivity2">
+    tools:context=".activities.settings.SettingsActivity2">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar_container"
@@ -37,7 +37,7 @@
                     android:gravity="center_vertical"
                     android:marqueeRepeatLimit="3"
                     android:maxLines="1"
-                    android:text="@string/settings" />
+                    android:text="@string/action_settings" />
 
             </android.support.v7.widget.Toolbar>
 
